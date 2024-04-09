@@ -11,11 +11,15 @@ public class CarroMain {
 		Carro van = new Carro();
 		
 		van.marca = "Fiat";
-		van.modelo = "Duacto";
+		van.modelo = "Ducato";
 		van.numPassageiros = 2;
 		van.capCombustivel = 100.0;
 		van.consumoCombustivel = 0.2;
+		
+		System.out.println(van.marca);
+		System.out.println(van.modelo);
 
+		van.obterAutonomia();
 		van.exibirAutonomia();
 		
 
