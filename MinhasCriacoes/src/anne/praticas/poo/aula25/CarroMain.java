@@ -22,6 +22,11 @@ public class CarroMain {
 		van.obterAutonomia();
 		van.exibirAutonomia();
 		
+		System.out.println("Quantidade de combustivel:");
+		
+		double qtdCombustivel = van.calcularCombustivel(10);
+		System.out.println(qtdCombustivel);
+		
 
 	}
 
