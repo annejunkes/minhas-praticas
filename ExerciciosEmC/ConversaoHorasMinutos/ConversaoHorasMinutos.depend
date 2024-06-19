@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1718799013 source:c:\users\anneb\onedrive\Área de trabalho\github\minhas-praticas\exerciciosemc\conversaohorasminutos\main.c
+	<stdio.h>
+	<locale.h>
+
