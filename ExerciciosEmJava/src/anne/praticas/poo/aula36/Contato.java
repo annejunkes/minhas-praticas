@@ -3,7 +3,7 @@ package anne.praticas.poo.aula36;
 public class Contato {
 	
 	private String nome;
-	private String telefone;
+	private Telefone[] telefones;
 	private Endereco endereco;
 	
 	public String getNome() {
@@ -12,11 +12,12 @@ public class Contato {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	public String getTelefone() {
-		return telefone;
+	
+	public Telefone[] getTelefones() {
+		return telefones;
 	}
-	public void setTelefone(String telefone) {
-		this.telefone = telefone;
+	public void setTelefones(Telefone[] telefones) {
+		this.telefones = telefones;
 	}
 	public Endereco getEndereco() {
 		return endereco;
