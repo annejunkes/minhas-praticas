@@ -1,4 +1,4 @@
-package anne;
+package anne.praticas.AtividadePontoExtraBiologia.src.anne;
 
 import java.util.Scanner;
 

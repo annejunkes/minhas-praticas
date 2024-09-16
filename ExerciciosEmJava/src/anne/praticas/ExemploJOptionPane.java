@@ -17,7 +17,7 @@ public class ExemploJOptionPane {
 
 		String numeroDoisTxt = JOptionPane.showInputDialog("Digite outro numero: ");
 		
-		int numeroDois = Integer.valueOf(numeroDoisTxt);
+		Integer numeroDois = Integer.valueOf(numeroDoisTxt);
 		
 		int soma = somaDoisInteiros(numeroUm,numeroDois);
 		

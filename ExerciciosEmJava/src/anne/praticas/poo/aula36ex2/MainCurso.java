@@ -57,7 +57,7 @@ public class MainCurso {
 		double media = soma/4;
 
 
-		System.out.println("Notas:" + a1.getNotas(n));
+		//System.out.println("Notas:" + a1.getNotas(n));
 	}
 
 }
